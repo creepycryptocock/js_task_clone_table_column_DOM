@@ -1,6 +1,6 @@
 'use strict';
 
-function moveColumn() {
+function moveColumns() {
   const table = document.querySelector('.table');
   const rows = table.rows;
 
@@ -13,4 +13,4 @@ function moveColumn() {
   }
 }
 
-moveColumn();
+moveColumns();
