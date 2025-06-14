@@ -1,7 +1,7 @@
 'use strict';
 
 function moveColumns() {
-  const table = document.querySelector('.table');
+  const table = document.querySelector('table');
   const rows = table.rows;
 
   for (let i = 0; i < rows.length; i++) {
